@@ -1,0 +1,111 @@
+body {
+      font-family: 'Montserrat', sans-serif;
+    }
+    .navbar {
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
+      font-size: 14px;
+    }
+    .social-icons a {
+      color: #fff;
+      margin: 0 10px 20px;
+      font-size: 20px;
+    }
+    .setup-meeting {
+      border: 1px solid #fff;
+      border-radius: 0; /* Square and sharp edges */
+      color: #fff !important;
+      padding: 8px 12px;
+    }
+    .services ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    .services ul li {
+      margin-bottom: 10px;
+    }
+    .services ul li:before {
+      content: "\f0f2"; /* Font Awesome suitcase icon */
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      display: inline-block;
+      width: 1.5em;
+      margin-left: -1.5em;
+      color: #007bff; /* Change color if needed */
+    }
+    .services-group {
+      width: 50%;
+      float: left;
+    }
+    @media (max-width: 768px) {
+      .services-group {
+        width: 100%;
+        float: none;
+      }
+    }
+    .content{
+    	font-size: 24px;
+    }
+
+    .contact-info {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .contact-info h3 {
+    margin-top: 0;
+  }
+
+  .contact-info .info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+
+  .contact-info .info i {
+    margin-right: 5px;
+  }
+  
+  .nav-link{
+    margin-right: 20px; /* Add margin between links */
+  }
+  .flex-container {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 20px;
+       flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
+    }
+    .flex-item {
+      width: calc(50% - 20px);
+      height: 150px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 20px;
+      color: white;
+      margin-bottom: 20px;
+      position: relative; /* Add position relative for arrow positioning */
+    }
+    .red { background-color: #ff6347; }
+    .green { background-color: #2ecc71; }
+    .blue { background-color: #3498db; }
+    .yellow { background-color: #f1c40f; }
+
+    @media (max-width: 768px) {
+      .flex-item {
+        width: calc(100% - 20px); /* Full width for mobile */
+      }
+      .flex-item i {
+        position: relative; /* Change arrow position to relative for mobile */
+        right: auto; /* Reset arrow position */
+        margin-left: 10px; /* Add margin to the left */
+      }
+    }
+    /* Style for arrow */
+    .flex-item i {
+      position: absolute;
+      right: 15px; /* Adjust as needed */
+      font-size: 24px; /* Adjust size */
+    }
