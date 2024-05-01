@@ -10,51 +10,8 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
   <!-- Google Fonts - Montserrat -->
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<style>
-  body {
-      font-family: 'Montserrat', sans-serif;
-    }
-    .navbar {
-      padding-top: 1.5rem;
-      padding-bottom: 1.5rem;
-      font-size: 14px;
-    }
-    .social-icons {
-      margin-top: 20px;
-    }
-    .social-icons a {
-      color: #fff;
-      margin: 0 10px 20px;
-      font-size: 20px;
-    }
-    .setup-meeting {
-      border: 1px solid #fff;
-      border-radius: 0; /* Square and sharp edges */
-      color: #fff !important;
-      padding: 8px 12px;
-    }
-    .contact-info {
-    margin: 20px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-
-  .contact-info h3 {
-    margin-top: 0;
-  }
-
-  .contact-info .info {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
-  }
-
-  .contact-info .info i {
-    margin-right: 5px;
-  }
-  </style>
 <body>
 
 <!-- Navbar -->
@@ -100,24 +57,38 @@
     <p><i class="fas fa-phone"></i> PHONE NO:</p>
     <p>xxxxxxxxxxxxx</p>
   </div>
+  <div class="container">
+  <div class="row">
+    <div class="col">
+      <div class="d-flex">
+        <a href="https://chat.whatsapp.com/DgKeQVEJyQc6oMO2US4cr9" class="btn btn-primary flex-grow-1" target="blank">
+          <span class="text-light">Hire Us!</span>
+        </a>
+      </div>
+    </div>
+  </div>
 </div>
 
+
+</div>
 <!-- Footer -->
-<footer class="bg-dark text-light text-center py-3">
+<footer class="bg-dark text-light text-center pt-5 pb-5"> <!-- Reduced padding-bottom to 3 for minimalism -->
   <div class="container">
-    <p class="footer-text">
-    Event Management, 200 - 1110 7 Street SW, Calgary, Alberta, T2R 1A2, Cana | Contact: <a href="mailto:info@example.com" class="text-light">info@example.com</a>
+    <p class="footer-text mb-4">
+      Event Management, 200 - 1110 7 Street SW, Calgary, Alberta, T2R 1A2, Canada | Contact: <a href="mailto:info@example.com" class="text-light">info@example.com</a>
     </p>
-    <div class="social-icons">
+    <div class="social-icons mb-4"> <!-- Added mb-3 class for margin-bottom -->
       <a href="#"><i class="fab fa-facebook-f"></i></a>
       <a href="#"><i class="fab fa-twitter"></i></a>
       <a href="#"><i class="fab fa-instagram"></i></a>
       <a href="#"><i class="fab fa-linkedin-in"></i></a>
     </div>
-    <p>&copy; 2024 Event Management</p>
+    <p class="mb-2"> <!-- Changed mb-0 to mb-2 for margin-bottom -->
+      &copy; 2024 Event Management | 
+      Developed by <a href="https://shujanislam.github.io/" class="text-light">Shujan Islam</a>
+    </p>
   </div>
 </footer>
-
 </body>
 <!-- Bootstrap Bundle with Popper -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
