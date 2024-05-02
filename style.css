@@ -114,3 +114,17 @@ body {
       margin-left: 18px;
       font-size: 14px;
     }
+    .carousel-text {
+      position: absolute;
+      bottom: -100%;
+      left: 0;
+      right: 0;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 10px;
+      color: white;
+      transition: transform 0.3s ease, opacity 0.3s ease, bottom 0.3s ease;
+    }
+
+    .carousel:hover .carousel-text {
+      bottom: 0;
+    }
