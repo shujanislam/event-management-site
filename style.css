@@ -1,9 +1,18 @@
 body {
       font-family: 'Montserrat', sans-serif;
     }
+    .playfair-display-playfair {
+      font-family: "Playfair Display", serif;
+      font-optical-sizing: auto;
+      font-weight: 600;
+      font-style: italic;
+    }
     .navbar {
       padding-top: 1.5rem;
       padding-bottom: 1.5rem;
+      font-size: 14px;
+    }
+    footer{
       font-size: 14px;
     }
     .social-icons a {
@@ -44,7 +53,7 @@ body {
       }
     }
     .content{
-    	font-size: 24px;
+    	font-size: 18px;
     }
 
     .contact-info {
@@ -134,4 +143,17 @@ body {
       border-bottom: 2px solid #333333; /* Add a solid black underline */
       padding-bottom: 5px; /* Optional padding below the text */
       margin-bottom: 20px; /* Optional margin below the heading */
+    }
+    .services-text{
+      font-family: "Playfair Display";
+      color:  #ee9d11;
+      font-size: 18px;
+    }
+    .services-container{
+      padding-top: 50px;
+    }
+    .comma{
+      font-family: "Playfair Display";
+      font-size: 88px;
+      color: #ee9d11;
     }
