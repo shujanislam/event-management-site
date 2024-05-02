@@ -128,3 +128,10 @@ body {
     .carousel:hover .carousel-text {
       bottom: 0;
     }
+    .text-start{
+      color: #333333; font-size: 1.5rem; /* Adjust the font size as needed */
+      font-weight: bold; /* Optionally, make the text bold */
+      border-bottom: 2px solid #333333; /* Add a solid black underline */
+      padding-bottom: 5px; /* Optional padding below the text */
+      margin-bottom: 20px; /* Optional margin below the heading */
+    }
