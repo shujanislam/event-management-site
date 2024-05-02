@@ -70,9 +70,11 @@
 <div class="container mt-5 mb-5 content">
   <div class="row">
     <div class="container">
-      <p>Welcome to [ NAME ], your premier event management partner in [ LOCATION ]. From exquisite wedding ceremonies to polished corporate functions and relaxed casual gatherings, we specialize in curating unforgettable experiences tailored to your unique needs.</p>
+    	<div class="container">
+	      <p>Welcome to [ NAME ], your premier event management partner in [ LOCATION ]. From exquisite wedding ceremonies to polished corporate functions and relaxed casual gatherings, we specialize in curating unforgettable experiences tailored to your unique needs.</p>
 
-<p>At [ NAME ], we bring a fresh and meticulous approach to every event we undertake. Whether it's the romance of a wedding, the professionalism of a corporate affair, or the laid-back vibe of a casual event, our dedicated team ensures seamless execution from start to finish. Let us light up your event with creativity, precision, and unparalleled service.</p>
+	<p>At [ NAME ], we bring a fresh and meticulous approach to every event we undertake. Whether it's the romance of a wedding, the professionalism of a corporate affair, or the laid-back vibe of a casual event, our dedicated team ensures seamless execution from start to finish. Let us light up your event with creativity, precision, and unparalleled service.</p>
+	    </div>
     </div>
   </div>
 </div>
@@ -91,10 +93,108 @@
   <div class="row">
     <div class="col-md-12">
       <div class="flex-container">
-        <div class="flex-item red text-center"><a href="" class="text-light text-decoration-none">CORPORATE EVENTS<i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i></a></div>
-        <div class="flex-item green text-center"><a href="" class="text-light text-decoration-none">WEDDING EVENTS<i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i></a></div>
-        <div class="flex-item blue text-center"><a href="" class="text-light text-decoration-none">CASUAL EVENTS<i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i></a></div>
-        <div class="flex-item yellow text-center"><a href="" class="text-light text-decoration-none">NON-PROFIT EVENTS<i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i></a></div>
+        <div class="flex-item red text-center"><a href="#" class="text-light text-decoration-none" data-bs-toggle="modal" data-bs-target="#corporateModal">CORPORATE EVENTS<i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i></a></div>
+        <div class="flex-item green text-center"><a href="#" class="text-light text-decoration-none" data-bs-toggle="modal" data-bs-target="#weddingModal">WEDDING EVENTS<i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i></a></div>
+        <div class="flex-item blue text-center"><a href="#" class="text-light text-decoration-none" data-bs-toggle="modal" data-bs-target="#casualModal">CASUAL EVENTS<i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i></a></div>
+        <div class="flex-item yellow text-center"><a href="#" class="text-light text-decoration-none" data-bs-toggle="modal" data-bs-target="#nonprofitModal">NON-PROFIT EVENTS<i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i></a></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Corporate Modal -->
+<div class="modal fade" id="corporateModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Corporate Events</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Modal content goes here...</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Wedding Modal -->
+<div class="modal fade" id="weddingModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Wedding Events</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div id="carouselExample" class="carousel slide mb-5">
+		  <div class="carousel-inner">
+		    <div class="carousel-item active">
+		      <img src="https://i.pinimg.com/736x/9b/1c/f3/9b1cf3318e845d61752ff9e60b2193ff.jpg" class="d-block w-100" alt="...">
+		    </div>
+		  </div>
+		</div>
+		<h4>Services provided</h4>
+		<ul class="list-unstyled mt-3 modal-services">
+		    <li>- Venue Selection and Management</li>
+		    <li class="mt-2">- Budget Management</li>
+		    <li class="mt-2">- Vendor Coordination</li>
+		    <li class="mt-2">- Event Design and Decor</li>
+		    <li class="mt-2">- Timeline and Schedule Management</li>
+		    <li class="mt-2">- Guest Management</li>
+		    <li class="mt-2">- On-site Coordination</li>
+		    <li class="mt-2">- Entertainment and Activities</li>
+		    <li class="mt-2">- Ceremony Coordination</li>
+		    <li class="mt-2">- Emergency Contingency Planning</li>
+		    <li class="mt-2">- Post-event Clean-up</li>
+		  </ul>
+      </div>
+      <div class="modal-footer">
+        <a href="https://chat.whatsapp.com/DgKeQVEJyQc6oMO2US4cr9" class="btn btn-primary flex-grow-1" target="blank">
+          <span class="text-light">Hire Us!</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Casual Modal -->
+<div class="modal fade" id="casualModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Casual Events</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Modal content goes here...</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Non-Profit Modal -->
+<div class="modal fade" id="nonprofitModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Non-Profit Events</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Modal content goes here...</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
       </div>
     </div>
   </div>
@@ -130,7 +230,7 @@
 <footer class="bg-dark text-light text-center pt-5 pb-5"> <!-- Reduced padding-bottom to 3 for minimalism -->
   <div class="container">
     <p class="footer-text mb-4">
-      Event Management, 200 - 1110 7 Street SW, Calgary, Alberta, T2R 1A2, Canada | Contact: <a href="mailto:info@example.com" class="text-light">info@example.com</a>
+      Event Management, 200 - 1110 7 Street SW, Calgary, Alberta, T2R 1A2, Canada | Contact: <a href="mailto:info@example.com" class="text-light text-decoration-none">info@example.com</a>
     </p>
     <div class="social-icons mb-4"> <!-- Added mb-3 class for margin-bottom -->
       <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -140,7 +240,7 @@
     </div>
     <p class="mb-2"> <!-- Changed mb-0 to mb-2 for margin-bottom -->
       &copy; 2024 Event Management | 
-      Developed by <a href="https://shujanislam.github.io/" class="text-light">Shujan Islam</a>
+      Developed by <a href="https://shujanislam.github.io/" class="text-light text-decoration-none" target="blank">Shujan Islam</a>
     </p>
   </div>
 </footer>
