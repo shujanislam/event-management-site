@@ -109,3 +109,8 @@ body {
       right: 15px; /* Adjust as needed */
       font-size: 24px; /* Adjust size */
     }
+
+    .modal-services{
+      margin-left: 18px;
+      font-size: 14px;
+    }
